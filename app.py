@@ -128,6 +128,7 @@ def run():
 
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
+    save_qualifying_loans = questionary.text()
 
 
 if __name__ == "__main__":
